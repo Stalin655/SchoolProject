@@ -2,7 +2,7 @@
 <head>
 	<link rel="stylesheet" href="main.css">
 </head>
-<body style="background-image:url(mgrchange.jpg)">
+<body style="background-color:#38598b">
 <div class="header">
 				<ul>
 					<li style="float:left;border-right:none"><strong><?php session_start(); echo $_SESSION['mgrname']; ?></strong></li>
@@ -10,9 +10,9 @@
 				</ul>
 </div>
 <div class="container" style="width:100%;background-image:url(mgrchange.jpg)">
-	<div class="container" style="background-color:white">
+	<div class="container" style="background-color:#f95959">
 	<form method="post">
-	  <button type="button" name="change" onclick="window.location.href='changebookingstatus.php'">Change/View Booking Status</button>
+	  <button type="button" name="change" onclick="window.location.href='changebookingstatus.php'"> Change/View Booking Status </button>
 	  <button type="submit" name="logout" style="float:right">Log Out</button>
 	</form>
     </div>

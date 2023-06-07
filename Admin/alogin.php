@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image:url(doctordesk.jpg)">
+<body style="background-image:url(m6.jpg)">
 <link rel="stylesheet" href="main.css">
 	<form action="alogin.php" method="post">
 	<div class="header">
@@ -9,16 +9,17 @@
 					<li><a href="cover.php">Home</a></li>
 				</ul>
 	</div>
-	<div class="sucontainer">
+	<div class="sucontainer" style="background-color:#a55233">
 		<label><b>Username:</b></label><br>
 		<input type="text" placeholder="Enter Username" name="uname" required><br>
 	
 		<label><b>Password:</b></label><br>
 		<input type="password" placeholder="Enter Password" name="pass" required><br><br>
-		
-		<div class="container" style="background-color:grey">
+		<div class="container">
 			<button type="submit" name="submit" style="float:right">Log In</button>
-		</div>
+	</div>
+</div>
+
 <?php 
 function SignIn() 
 { 

@@ -25,10 +25,10 @@ tr,td{
 }
 </style>
 
-<body style="background-image:url(mgrchange.jpg)">
+<body style="background-image:url(m6.jpg)">
 	<div class="header">
-		<ul>
-			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="../images/cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+		<ul style="background-color:#142d4c">
+			<li style="float:left;border-right:none; "><a href="ulogin.php"><strong> BetterMentalHealth Therapy Platform</strong></a></li>
 			<li><a href="mgrmenu.php">Home</a></li>
 		</ul>
 	</div>
@@ -36,7 +36,7 @@ tr,td{
 	<div>
 		
 	
-		<label style="font-size:20px"><b>Doctor:</b></label><br>
+		<label style="font-size:20px;" "font-color:black;" ><b>Doctor:</b></label><br>
 		<select name="doctor" id="doctor-list" class="demoInputBox" style="width:100%;height:35px;border-radius:9px">
 		<option value="">Select Doctor</option>
 		<?php

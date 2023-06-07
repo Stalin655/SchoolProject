@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image:url(p2.jpg)">
+<body style="background-image:url(m6.jpg)">
 <link rel="stylesheet" href="main.css">
 			<div class="header">
 				<ul>
-					<li style="float:left;border-right:none"><a href="cover.php" class="logo"><img src="cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+				<li style="float:left;border-right:none"><a href="cover.php" > <strong> BetterMentalHealth Therapy Platform</strong></a></li>
 					<li><a href="locateus.php">Locate Us</a></li>
 					<li><a href="#home">Home</a></li>
 				</ul>
 			</div>
 			<div class="center">
-				<h1>Skylabs</h1><br>
-				<p style="text-align:center;color:black;font-size:30px;top:35%">Online Appointment Booking System</p><br>
-				<button onclick="document.getElementById('id01').style.display='block'" style="position:absolute;top:50%;left:50%">Login</button>
+			<br>
+				<p style="text-align:center;color:black;Font-family: Serif;font-size:60px;top:45%">Your Wellness Is Our Happiness. <br> It's okay to feel unstable. <br> It's okay to disassociate. <br> It's okay to hide from the world. <br>
+			It's okay to need help. <br> It's okay not to be okay.</p>
+				<br>
+				<button onclick="document.getElementById('id01').style.display='block'" style="position:absolute;top:85%;left:50%"> Login </button>
 				
 			</div>	
 			<div class="footer">
