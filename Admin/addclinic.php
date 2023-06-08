@@ -2,9 +2,9 @@
 <head>
 <link rel="stylesheet" href="adminmain.css"> 
 </head>
-<body background= "clinicview.jpg" behavior="fixed">
-<ul>
-<li class="dropdown"><font color="yellow" size="10">ADMIN MODE</font></li>
+<body  style="background-color:#0092ca" behavior="fixed">
+<ul >
+<li class="dropdown"><font text-align="center" color="white" size="6">ADMIN MODE</font></li>
 <br>
 <h2>
   <li class="dropdown">    
@@ -45,8 +45,8 @@
 	
 </ul>
 </h2>
-<center><h1>ADD CLINIC</h1><hr>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+<center><h1 style="background-color:#0092ca">ADD CLINIC</h1><hr>
+<form style="background-color:#0092ca" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   CID:<input type="number" name="cid" required>
   <br>
   Name: <input type="text" name="name" required>

@@ -3,9 +3,9 @@
 <head>
 <link rel="stylesheet" href="adminmain.css"> 
 </head>
-<body background= "doctordesk.jpg">
+<body style="background-image:url(m6.jpg)">
 <ul>
-<li class="dropdown"><font color="yellow" size="10">ADMIN MODE</font></li>
+<li class="dropdown"><font text-align="center" color="white" size="6">ADMIN MODE</font></li>
 <br>
 <h2>
   <li class="dropdown">    
@@ -47,10 +47,10 @@
 </ul>
 </h2>
 <h1>
-<center><h1>DELETE DOCTOR</h1><hr>
+<hr>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
 Enter DID:<center><input type="number" name="did"></center>
-			<button type="submit" name="Submit1">Delete by DID</button>
+			<button style="background-color:blue" type="submit" name="Submit1">Delete by DID</button>
 			<br>---------OR---------<br>
 Select Name:<br><?php
 				require_once('dbconfig.php');
@@ -70,7 +70,7 @@ Select Name:<br><?php
 				?>
 				</select></center>
 				
-				<button type="submit" name="Submit2">Delete by Name</button>
+				<button style="background-color:blue" type="submit" name="Submit2">Delete by Name</button>
 </form>			
 <?php
 session_start();

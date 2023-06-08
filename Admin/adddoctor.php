@@ -2,9 +2,9 @@
 <head>
 <link rel="stylesheet" href="adminmain.css"> 
 </head>
-<body background= "doctordesk.jpg">
+<body style="background-color:#d5eeff">
 <ul>
-<li class="dropdown"><font color="yellow" size="10">ADMIN MODE</font></li>
+<li class="dropdown"><font text-align="center" type="Arial" color="white" size="6">ADMIN MODE</font></li>
 <br>
 <h2>
   <li class="dropdown">    
@@ -39,14 +39,14 @@
   </li>
    <li>  
 	<form method="post" action="mainpage.php">	
-	<button type="submit" class="cancelbtn" name="logout" style="float:right;font-size:22px"><b>Log Out</b></button>
+	<button type="submit" class="cancelbtn" name="logout" style="float:right;font-size:22px;background-color:orange"><b>Log Out</b></button>
 	</form>
   </li>
 	
 </ul>
 </h2>
 <center><h1>ADD DOCTOR</h1><hr>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+<form  style="background-color:#d5eeff" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   DID:<input type="number" name="did" required>
   <br>
   Name: <input type="text" name="name" required>

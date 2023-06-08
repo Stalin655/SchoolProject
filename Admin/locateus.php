@@ -35,16 +35,16 @@ function getDoctorday(val) {
 	});
 }
 </script>
-<body style="background-image:url(images/yellowpage.jpg)">
+<body style="background-image:url(m6.jpg)">
 	<div class="header">
 		<ul>
-			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+			<li style="float:left;border-right:none"><a href="ulogin.php" ><strong> BetterMentalHealth Therapy Platform </strong></a></li>
 			<li><a href="cover.php">Home</a></li>
 		</ul>
 	</div>
 	<form action="locateus.php" method="post">
-	<div class="sucontainer" style="background-image:url(images/yellowpage.jpg)">
-		<ul style="background-image:url(images/yellowpage.jpg)">			
+	<div class="sucontainer" style="background-color:#0092ca">
+		<ul style="background-color:#ff2c2c">			
 			<label><b>Search Doctor</b></label>
 			<input type="text" name="doctorname" placeholder="Enter Doctor Name"></input>
 			<button type="submit" style="position:center" name="subd" value="Submit">Submit</button>
