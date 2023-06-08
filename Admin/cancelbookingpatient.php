@@ -3,16 +3,16 @@
 <link rel="stylesheet" href="main.css">
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 </head><?php include "dbconfig.php"; ?>
-<body style="background-image:url(images/cancelback.jpg)">
+<body style="background-image:url(m6.jpg)">
 	<div class="header">
 		<ul>
-			<li style="float:left;border-right:none"><a href="ulogin.php" class="logo"><img src="images/cal.png" width="30px" height="30px"><strong> Skylabs </strong>Appointment Booking System</a></li>
+			<li style="float:left;border-right:none"><a href="ulogin.php"><strong>BetterMentalHealth Therapy Platform</strong></a></li>
 			<li><a href="ulogin.php">Home</a></li>
 		</ul>
 	</div>
 	<form action="cancelbookingpatient.php" method="post">
-	<div class="sucontainer">
-		<label style="font-size:20px" >Select Appointment to Cancel:</label><br>
+	<div style="background-color:#fd5f00" class="sucontainer">
+		<label style="font-size:20px;font-color:black" >Select Appointment to Cancel:</label><br>
 		<select name="appointment" id="appointment-list" class="demoInputBox"  style="width:100%;height:35px;border-radius:9px">
 		<option value="">Select Appointment</option>
 		<?php

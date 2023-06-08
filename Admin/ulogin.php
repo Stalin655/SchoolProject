@@ -2,7 +2,7 @@
 <head>
 	<link rel="stylesheet" href="main.css">
 </head>
-<body style="background-image:url(images/userback.jpg)">
+<body style="background-image:url(m6.jpg)">
 <div class="header">
 				<ul>
 					<li style="float:left;border-right:none"><strong><?php session_start(); echo $_SESSION['user']; ?></strong></li>

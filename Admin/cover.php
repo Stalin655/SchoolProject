@@ -56,15 +56,8 @@
       <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span><br>
     </div>
 
-	<div class="imgcontainer">
-      <img src="images/steps.png" alt="Avatar" class="avatar">
-    </div>
-	
     <div class="container">
-		<p style="text-align:center;font-size:18px;"><b>Sign Up -> Choose your Dates -> Book your visit</b></p>
-      <p style="text-align:center"><b>Booking an appointment has never been easier!</b></p>
-      <p style="text-align:center"><b>The 3 steps for an easier and healthy life</b></p>
-	  
+		<p style="text-align:center;font-size:18px;"><b>Click the button below to sign up.</b></p>     
     </div>
 	
     <div class="container" style="background-color:#f1f1f1">
